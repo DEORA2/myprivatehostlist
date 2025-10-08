@@ -120,4 +120,39 @@
 ||creatives.smadex.com^            
 ||api.appodealx.com^                  
 ||sdk-files.smaato.net^      
-||adx.ads.vungle.com^                
+||adx.ads.vungle.com^
+
+# --- Twitter / X ads
+||ads-api.twitter.com^
+||ads.twitter.com^
+twitter.com##[href*="ads-api.twitter.com"]
+twitter.com##.promotedTweet
+
+# --- Google ad scripts / doubleclick
+||pagead2.googlesyndication.com^
+||googlesyndication.com/pagead^
+##script:has-text(googlesyndication)
+
+# --- Pinterest
+||ads.pinterest.com^
+||ads-pinterest.com^
+pinterest.*##[data-test="pin-ad"]
+pinterest.com##.promotedPin
+
+# --- Reddit
+||ads.reddit.com^
+||reddit.com/ads^
+reddit.com##.promotedlink
+reddit.com##.promoted-story
+
+# --- YouTube
+||ads.youtube.com^
+||youtube.com/get_midroll_ads^
+youtube.com##.ytd-ad
+
+# --- TikTok
+||ads.tiktok.com^
+||ttads.io^
+tiktok.com##.adInfo
+tiktok.com##.ad-container
+
