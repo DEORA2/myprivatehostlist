@@ -180,3 +180,7 @@ vk.com##iframe[src*="api.vk.com"]
 
 # --- Microsoft telemetry (safe minimal block)
 ||settings-win.data.microsoft.com^
+
+# --- Raygun error tracking
+||api.raygun.com^
+
