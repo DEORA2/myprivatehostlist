@@ -159,9 +159,24 @@ youtube.com##.ytd-ad
 tiktok.com##.adInfo
 tiktok.com##.ad-container
 
-# --- Extras
+# --- Telemetry / Error reporting / Analytics
 ||cdn.rollbar.com^
 ||api.honeybadger.io^
 ||logging.googleapis.com^
 ||trace.googleapis.com^
 ||errorreporting.googleapis.com^
+
+# --- Facebook tracking APIs
+||connect.facebook.net^
+||graph.facebook.com^
+facebook.com##iframe[src*="connect.facebook.net"]
+
+# --- VK tracking
+||api.vk.com^
+vk.com##iframe[src*="api.vk.com"]
+
+# --- LG telemetry
+||ngfts.lge.com^
+
+# --- Microsoft telemetry (safe minimal block)
+||settings-win.data.microsoft.com^
