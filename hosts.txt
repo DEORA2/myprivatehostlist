@@ -149,6 +149,9 @@ reddit.com##.promoted-story
 ||ads.youtube.com^
 ||youtube.com/get_midroll_ads^
 youtube.com##.ytd-ad
+||s.youtube.com^
+||redirector.googlevideo.com^
+||youtubei.googleapis.com^
 
 # --- TikTok
 ||ads.tiktok.com^
@@ -156,3 +159,9 @@ youtube.com##.ytd-ad
 tiktok.com##.adInfo
 tiktok.com##.ad-container
 
+# --- Extras
+||cdn.rollbar.com^
+||api.honeybadger.io^
+||logging.googleapis.com^
+||trace.googleapis.com^
+||errorreporting.googleapis.com^
