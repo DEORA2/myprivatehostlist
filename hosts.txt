@@ -146,12 +146,12 @@ reddit.com##.promotedlink
 reddit.com##.promoted-story
 
 # --- YouTube
-||ads.youtube.com^
-||youtube.com/get_midroll_ads^
-youtube.com##.ytd-ad
-||s.youtube.com^
-||redirector.googlevideo.com^
-||youtubei.googleapis.com^
+#||ads.youtube.com^
+#||youtube.com/get_midroll_ads^
+#youtube.com##.ytd-ad
+#||s.youtube.com^
+#||redirector.googlevideo.com^
+#||youtubei.googleapis.com^
 
 # --- TikTok
 ||ads.tiktok.com^
